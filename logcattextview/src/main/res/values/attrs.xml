@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LogcatTextView">
+        <attr name="verboseColor" format="color"/>
+        <attr name="debugColor" format="color"/>
+        <attr name="errorColor" format="color"/>
+        <attr name="infoColor" format="color"/>
+        <attr name="warningColor" format="color"/>
+        <attr name="consoleColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:logcat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.munix.logcattextviewdemo.MainActivity">
+
+    <es.munix.logcat.LogcatTextView
+        android:id="@+id/logcat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        logcat:consoleColor="@color/consoleColor"
+        logcat:debugColor="@color/debugColor"
+        logcat:errorColor="@color/errorColor"
+        logcat:infoColor="@color/infoColor"
+        logcat:verboseColor="@color/verboseColor"
+        logcat:warningColor="@color/warningColor"/>
+</RelativeLayout>

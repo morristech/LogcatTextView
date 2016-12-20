@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="consoleColor">#000000</color>
+
+    <color name="verboseColor">#0093C4</color>
+    <color name="debugColor">#FF6B68</color>
+    <color name="errorColor">#22BB00</color>
+    <color name="infoColor">#FFFFFF</color>
+    <color name="warningColor">#BB7D0E</color>
+    <color name="assertColor">#ad0ebb</color>
+</resources>
